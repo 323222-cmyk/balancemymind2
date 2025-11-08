@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind & Balance - Positivity Corner</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Mind & Balance</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mind.html">Mind & Balance</a></li>
+                <li><a href="stress.html">Stress Zone</a></li>
+                <li><a href="positivity.html" class="active">Positivity Corner</a></li>
+                <li><a href="about.html">About & Resources</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-content">
+        <div class="page-hero">
+            <h1 class="page-title">Positivity Corner</h1>
+            <p class="page-subtitle">Uplifting quotes, affirmations, and stories to brighten your day</p>
+        </div>
+
+        <section class="positivity-section">
+            <div class="container">
+                <div class="quotes-section fade-in">
+                    <h2 class="section-title">Daily Affirmations</h2>
+                    <div class="affirmations-grid">
+                        <div class="affirmation-card" style="margin-bottom: 20px;">
+                            <p class="affirmation-text">"You are enough, just as you are."</p>
+                        </div>
+                        <div class="affirmation-card">
+                            <p class="affirmation-text">"Every storm passes. Keep going."</p>
+                        </div>
+                        <div class="affirmation-card">
+                            <p class="affirmation-text">"Your feelings are valid, and so are you."</p>
+                        </div>
+                        <div class="affirmation-card">
+                            <p class="affirmation-text">"Progress, not perfection, is what matters."</p>
+                        </div>
+                        <div class="affirmation-card">
+                            <p class="affirmation-text">"You are stronger than you think."</p>
+                        </div>
+                        <div class="affirmation-card">
+                            <p class="affirmation-text">"It's okay to take things one day at a time."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quotes-section fade-in">
+                    <h2 class="section-title">Inspirational Quotes</h2>
+                    <div class="quotes-slider">
+                        <div class="quote-card active">
+                            <p class="quote-text">"You don't have to be perfect to be amazing."</p>
+                            <p class="quote-author">Unknown</p>
+                        </div>
+                        <div class="quote-card">
+                            <p class="quote-text">"The only way out is through."</p>
+                            <p class="quote-author">Robert Frost</p>
+                        </div>
+                        <div class="quote-card">
+                            <p class="quote-text">"Be yourself; everyone else is already taken."</p>
+                            <p class="quote-author">Oscar Wilde</p>
+                        </div>
+                        <div class="quote-card">
+                            <p class="quote-text">"It's okay to not be okay. It's okay to ask for help."</p>
+                            <p class="quote-author">Unknown</p>
+                        </div>
+                        <div class="quote-card">
+                            <p class="quote-text">"Small steps every day lead to big changes."</p>
+                            <p class="quote-author">Unknown</p>
+                        </div>
+                    </div>
+                    <div class="quote-controls">
+                        <button class="quote-btn" id="prevQuote">← Previous</button>
+                        <button class="quote-btn" id="nextQuote">Next →</button>
+                    </div>
+                </div>
+
+                <div class="community-section fade-in">
+                    <h2 class="section-title">Community Comments</h2>
+                    <p class="community-intro">
+                        Post a quick win, a tip that's helping you, or a reminder you'd share with a friend. 
+                        Read what others are saying, leave a like, and keep the encouragement going.
+                    </p>
+                    <form class="comment-form" id="commentForm">
+                        <div class="comment-form-row">
+                            <input type="text" class="comment-input" id="commentName" placeholder="Name (optional)" maxlength="40" aria-label="Name (optional)">
+                        </div>
+                        <div class="comment-form-row">
+                            <textarea class="comment-textarea" id="commentMessage" placeholder="Share a thought, win, or encouragement..." rows="3" maxlength="280" aria-label="Comment message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary comment-submit">Post Comment</button>
+                    </form>
+                    <div class="comments-list" id="commentsList"></div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mind & Balance. Created with care for teen mental wellness.</p>
+            <div class="need-help-section">
+                <h3 class="need-help-title">Need Help?</h3>
+                <div class="need-help-resources">
+                    <div class="need-help-item">
+                        <strong>Crisis Text Line</strong>
+                        <p>Text HOME to 741741</p>
+                    </div>
+                    <div class="need-help-item">
+                        <strong>Suicide & Crisis Lifeline</strong>
+                        <p>Call 988</p>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-resources">Need more resources? <a href="about.html#resources">View All Resources</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
